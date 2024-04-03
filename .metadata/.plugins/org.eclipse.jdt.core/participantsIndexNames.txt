@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+D:\kew\pro01\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\701558537.index
+\pro1\src
+D:\kew\pro01\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\341943586.index
+\pro1\src
+D:\kew\pro01\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\467710380.index
+\pro1\src
+D:\kew\pro01\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1039066886.index
+\project01\src
