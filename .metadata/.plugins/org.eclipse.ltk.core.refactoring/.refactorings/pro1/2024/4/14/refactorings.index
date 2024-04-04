@@ -7,3 +7,8 @@
 1712125696895	Move 'images' to 'WebContent'
 1712125817253	Move 'head.jsp' to 'WEB-INF'
 1712125872467	Move 'head.jsp' to 'WebContent'
+1712195353505	Rename type 'NoticeDao'
+1712195845949	Rename type 'Datacon'
+1712198210672	Delete element
+1712198648480	Move compilation unit
+1712202721074	Rename type 'NotiIns'

@@ -1,0 +1,34 @@
+package org.gangseo.dao;
+
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+import com.sun.jdi.connect.spi.Connection;
+
+public class Datacon {
+	final static String DRIVER = "oracle.jdbc.oracleDriver";
+	final static String URL ="jdbc:oracle:thin:@localhost:1521:xe";
+	final static String USERID ="system";
+	final static String USERPW ="1234";
+	
+	
+	//Connection con = null;
+	PreparedStatement pstmt = null;
+	
+	public void Connect(Connection con) {
+		try {
+			Class.forName(DRIVER);
+			con = DriverManager.getConnection(URL, USERID, USERPW);
+		
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void close(Connection con, PreparedStatement pstmt, Result rs) {
+		if(pstmt != null) {
+			
+		}
+	}
+}
+	
