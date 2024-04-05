@@ -13,7 +13,7 @@ import org.gangseo.dao.NoticeDAO;
 import org.gangseo.dto.Notice;
 
 
-@WebServlet("/NotiIns.do")
+@WebServlet("/NotiIns")
 public class InsNoticeCtrl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

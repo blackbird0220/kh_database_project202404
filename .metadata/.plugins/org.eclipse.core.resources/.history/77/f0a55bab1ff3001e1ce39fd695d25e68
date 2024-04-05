@@ -37,7 +37,7 @@ th.item3 {width:20%; }
 								<th><label for="title">제목</label></th>
 								<td>
 										<input type="text" name="title" class="form-control" maxlength="100" required>
-								</td>
+								<td>
 						</tr>
 						<tr>
 								<th><label for="context">내용</label></th>
