@@ -1,4 +1,3 @@
-package org.gangseo.ctrl;
 
 import java.io.IOException;
 

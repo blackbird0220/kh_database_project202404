@@ -6,7 +6,7 @@
 <hr>
 <header>
 	<div class="logo_wrap">
-		<a href="/pro1"><img src="${hpath }/images/magok01.jpg" alt="강서구 마곡동 로고" /></a>
+		<a href="/pro1"><img src="${hpath }/images/magok_logo.png" alt="강서구 마곡동 로고" /></a>
 	</div>
 	<nav id="tnb">
 		<ul>
