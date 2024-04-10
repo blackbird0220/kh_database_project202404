@@ -28,11 +28,12 @@ public class NoticeListCtrl extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		
 		NoticeDAO dao = new NoticeDAO();
-		List<Notice> noticeList = new ArrayList();
-		noticeList = dao.getNoticeList();
-		request.setAttribute("notiList", notiList);
+		List<Notice> notiList = new ArrayList<>();
+		notiList = dao.getNoticeList();
+		request.setAttribute("notiList", notiList);		
 		RequestDispatcher view = request.getRequestDispatcher("/notice/noticeList.jsp");
 		view.forward(request, response);
 	}
 
 }
+ 
