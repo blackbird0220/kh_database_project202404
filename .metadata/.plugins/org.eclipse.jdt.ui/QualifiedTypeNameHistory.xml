@@ -13,4 +13,8 @@
     <fullyQualifiedTypeName name="org.gangseo.dto.Notice"/>
     <fullyQualifiedTypeName name="org.gangseo.dao.NoticeDAO"/>
     <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="org.gangseo.dao.MemberDAO"/>
+    <fullyQualifiedTypeName name="org.gangseo.dto.Member"/>
 </qualifiedTypeNameHistroy>

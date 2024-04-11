@@ -25,9 +25,9 @@ public class Main extends HttpServlet {
         super();
     }
 
-	
+
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String author = "강사 김기태";
+		String author = "김응원";
 		
 		ServletContext application = request.getServletContext();
 		String realPath = request.getSession().getServletContext().getRealPath("/");// http://ip주소:포트넘버/~ url 주소
@@ -37,7 +37,7 @@ public class Main extends HttpServlet {
 		List<Qna> latestQnaList = new ArrayList<>();
 
 		
-		//request.setAttribute("latestQnaList", latestQnaList);
+		//request.setAttribute("latestQnaList", latestQnaList);  //최근 게시글
 		//request.setAttribute("latestNotiList", latestNotiList);
 		request.setAttribute("magok01", "./images/magok01.jpg");
 		request.setAttribute("author", author);

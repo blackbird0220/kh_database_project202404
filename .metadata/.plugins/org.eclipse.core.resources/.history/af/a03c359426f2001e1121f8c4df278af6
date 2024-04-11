@@ -1,7 +1,0 @@
-package org.gangseo.dao;
-
-public class NoticeDAO {
-	Connection con = null;
-	PreparedStatement pstmt = null;
-	ResultSet rs=null;
-}
