@@ -14,10 +14,11 @@ import javax.servlet.http.HttpServletResponse;
 import org.gangseo.dao.NoticeDAO;
 import org.gangseo.dto.Notice;
 
-@WebServlet("/NoticeList.do")
+
+@WebServlet("/NotiList.do")
 public class NoticeListCtrl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-           
+       
     public NoticeListCtrl() {
         super();
     }
@@ -36,4 +37,3 @@ public class NoticeListCtrl extends HttpServlet {
 	}
 
 }
- 
